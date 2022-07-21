@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <style>
+            #main{
+                width: 1000px;
+                height: 500px;
+                border: 1px solid blue;
+                display: flex;
+                flex-direction: row-reverse wrap;
+                flex-flow: row-reverse;
+            }
+            #main div:nth-of-type(1){
+                flex-grow: 3;
+            }
+            #main div:nth-of-type(2){
+                flex-grow:3;
+            }
+            #main div:nth-of-type(3){
+                flex-grow:3;
+            }
+            #main div:nth-of-type(4){
+                flex-grow:3;
+            }
+            #main div:nth-of-type(5){
+                flex-grow:3;
+                flex-basis: 50px;
+            }
+            #main div:nth-of-type(6){
+                flex-grow:2;
+            }
+            #main div:nth-of-type(7){
+                flex-grow:2;
+            }
+
+            
+            </style>
+    </head>
+            <body>
+                <h1>Flex</h1>
+                <h2>Flex-grow<br>flex-basis<br>flex-flow =row-reverse<br>flex-direction</h2>
+                <div id ="main">
+                    <div style ="background-color:darkviolet;"></div>
+                    <div style ="background-color:indigo;"></div>
+                    <div style ="background-color:blue;"></div>
+                    <div style ="background-color:rgb(12, 239, 12);"></div>
+                    <div style ="background-color:yellow;"><h2>B<br>A<br>S<br>I<br>S</h2></div>
+                    <div style="background-color: orange;"></div>
+                    <div style="background-color: red;"><h2>G<br>R<br>O<br>W</h2></div>
+                    
+                    </body>
